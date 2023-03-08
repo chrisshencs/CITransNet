@@ -5,6 +5,7 @@ from scipy.stats import truncnorm
 from tqdm import tqdm
 from IPython import embed
 
+## test for git push 
 def gen(n, m, d=10, phase='train', n_data=200000):
     dir = f'../data_multi/{d}d_{n}x{m}/{phase}_{n_data}'
     if not os.path.exists(dir):
